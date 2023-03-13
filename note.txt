@@ -1,0 +1,20 @@
+(xem lại video *GIẢI ĐÁP VỀ ĐỀ TÀI NGÂN HÀNG.mp4* phút 47:03 về cách phân tán database NGANHANG)
+
+- macn = ((DataRowView)bdsNV[0])["MACN"].ToString(); tiềm ẩn lỗi
+
+- lỗi xoá nhân viên lỗi khi mã nhân viên dạng chuỗi (dòng 241 frmNhanVien.cs)
+
+- xem kỹ lại chức năng chuyển nhân viên
+
+-không bắt buộc: chức năng redo (mới ok 2 nút insert, save) còn lại add, delete chưa làm được (dùng stack để khôi phục) 
+
+- xem kỹ lại nút delete của form  MOTAIKHOAN (ràng buộc phát sinh từ tài khoản khách hàng như gửi/rút tiền) -
+
+- thêm quyền 'SecurityAdmin' cho tài khoản HTKN để xem được tài khoản ở site khác với site đã đăng nhập (combobox chi nhánh) khi vào bằng tài khoản nhóm NganHang
+
+-Còn các chức năng chưa làm: 
+  + Gửi và rút tiền
+  + Chuyển khoản
+  + Sao kê tài khoản (Sao kê giao dịch của 1 tài khoản trong 1 khoảng thời gian)
+  + Danh sách tài khoản mở (Liệt kê các tài khoản mở trong 1 khoảng thời gian của chi nhánh, của tất cả các chi nhánh)
+  + Thống kê thông tin khách hàng (Liệt kê các khách hàng theo từng chi nhánh, trong từng chi nhánh thì in tăng dần theo họ tên)
